@@ -31,15 +31,15 @@ public class Tests extends BaseClass{
 	    MobileElement el10 = (MobileElement) driver.findElementById("org.seadvocacy.docsrchout:id/reason");
 	    el10.sendKeys("automated_test");
 	    driver.hideKeyboard();
-//	    MobileElement el11 = (MobileElement) driver.findElementById("org.seadvocacy.docsrchout:id/book");
-//	    el11.click();
-//	    MobileElement el12 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ListView/android.view.ViewGroup[9]");
-//	    el12.click();
-//	    MobileElement el13 = (MobileElement) driver.findElementById("android:id/button1");
-//	    el13.click();
-//	    MobileElement el14 = (MobileElement) driver.findElementById("org.seadvocacy.docsrchout:id/status");
-//	    
-//	    assertTrue(el14.isDisplayed());
+	    MobileElement el11 = (MobileElement) driver.findElementById("org.seadvocacy.docsrchout:id/book");
+	    el11.click();
+	    MobileElement el12 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ListView/android.view.ViewGroup[9]");
+	    el12.click();
+	    MobileElement el13 = (MobileElement) driver.findElementById("android:id/button1");
+	    el13.click();
+	    MobileElement el14 = (MobileElement) driver.findElementById("org.seadvocacy.docsrchout:id/status");
+	    
+	    assertTrue(el14.isDisplayed());
 	  
 	    System.out.println("Completed 1st test...");
 				
