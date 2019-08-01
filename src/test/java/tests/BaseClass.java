@@ -54,10 +54,10 @@ public class BaseClass {
 	    el2.click();
 	    MobileElement el3 = (MobileElement) driver.findElementById("org.seadvocacy.docsrchout:id/username");
 	    el3.clear();
-	    el3.sendKeys("testa@test.com");
+	    el3.sendKeys("test2@test.com");
 	    driver.hideKeyboard();
 	    MobileElement el4 = (MobileElement) driver.findElementById("org.seadvocacy.docsrchout:id/password");
-	    el4.sendKeys("password");
+	    el4.sendKeys("password1.");
 	    driver.hideKeyboard();	   
 	    MobileElement el5 = (MobileElement) driver.findElementById("org.seadvocacy.docsrchout:id/login");
 	    el5.click();
